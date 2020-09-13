@@ -5,6 +5,16 @@ export default Meetup();
 
 
 
+export const sumNow = (first,...args) =>{
+    for(let i=0; i < args.length; i++)
+        first+=args[i]
+
+    return first
+}
+
+
+
+
 
 
 

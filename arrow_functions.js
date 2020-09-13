@@ -42,5 +42,22 @@
   
   
   
+
+
+
+
+  // Output of this code ?
+
+var bob = {
+_name: "Bob",
+_friends: ['krishna','ramesh’],
+
+printFriends =() => {
+this._friends.forEach(f =>
+console.log(this._name + " knows " + f)
+);
+}
+}
+console.log(bob.printFriends())
   
   

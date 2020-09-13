@@ -83,13 +83,3 @@ console.log(Math.min(...addNum));
 //accept any number of arguments in a arrow function
 
 
-const sum = (...args) => {
-    let sum =0;
-    for(let i =0;i<args.length; i++)
-        sum +=args[i];
-
-
-    return sum;
-}
-
-console.log(sum(6,7,50));
